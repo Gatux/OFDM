@@ -1,0 +1,10 @@
+\contentsline {section}{\numberline {1}Etude de l'image}{2}
+\contentsline {subsection}{\numberline {1.1}Repr\IeC {\'e}sentation de l'image monument.bmp}{2}
+\contentsline {subsection}{\numberline {1.2}Repr\IeC {\'e}sentation fr\IeC {\'e}quentielle de l'image monument.bmp}{2}
+\contentsline {section}{\numberline {2}Creation d'un filtre "coupe-bande" de type gaussien}{2}
+\contentsline {subsection}{\numberline {2.1}Creation d'un filtre "passe-bas" de type gaussien}{2}
+\contentsline {subsection}{\numberline {2.2}Modulation du filtre "passe-bas" par un signal sinuso\IeC {\"\i }dal}{2}
+\contentsline {subsection}{\numberline {2.3}Tranformation du filtre en un filtre "coupe-bande"}{3}
+\contentsline {section}{\numberline {3}Filtrage de l'image}{3}
+\contentsline {subsection}{\numberline {3.1}Repr\IeC {\'e}sentation de l'image apr\IeC {\`e}s filtrage}{3}
+\contentsline {subsection}{\numberline {3.2}Repr\IeC {\'e}sentation fr\IeC {\'e}quentielle de l'image apr\IeC {\`e}s filtrage}{3}
