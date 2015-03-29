@@ -1,10 +1,9 @@
 \contentsline {section}{\numberline {1}Introduction}{2}
 \contentsline {section}{\numberline {2}Hypoth\IeC {\`e}ses et param\IeC {\`e}tres de simulation}{2}
 \contentsline {section}{\numberline {3}Formalisme math\IeC {\'e}matique}{2}
-\contentsline {section}{\numberline {4}Impl\IeC {\'e}mentation de la cha\IeC {\^\i }ne de communication}{2}
-\contentsline {subsection}{\numberline {4.1}Validation de l'impl\IeC {\'e}mentation}{2}
-\contentsline {subsection}{\numberline {4.2}D\IeC {\'e}bit binaire utile}{2}
-\contentsline {section}{\numberline {5}Impl\IeC {\'e}mentation d'un \IeC {\'e}galiseur par for\IeC {\c c}age \IeC {\`a} zero}{2}
-\contentsline {section}{\numberline {6}Performances de la cha\IeC {\^\i }ne de communication}{3}
-\contentsline {subsection}{\numberline {6.1}Avec CP \geq L}{3}
-\contentsline {subsection}{\numberline {6.2}Avec CP < L}{3}
+\contentsline {section}{\numberline {4}Impl\IeC {\'e}mentation et validation de la cha\IeC {\^\i }ne de communication}{3}
+\contentsline {section}{\numberline {5}Impl\IeC {\'e}mentation d'un \IeC {\'e}galiseur par for\IeC {\c c}age \IeC {\`a} zero}{3}
+\contentsline {section}{\numberline {6}Performances de la cha\IeC {\^\i }ne de communication}{4}
+\contentsline {subsection}{\numberline {6.1}Avec CP \geq L}{4}
+\contentsline {subsection}{\numberline {6.2}Avec CP < L}{4}
+\contentsline {section}{\numberline {7}Conclusion}{4}
