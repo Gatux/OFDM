@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.21)  30 MAR 2015 01:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.11.21)  30 MAR 2015 02:51
 entering extended mode
 **cr.tex
 (C:\Users\Gatux\Documents\GitHub\OFDM\Rapport\cr.tex
@@ -344,7 +344,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.7 ...ection}{\numberline {6.1}Avec CP \geq L}{4}
+l.6 ...ection}{\numberline {5.1}Avec CP \geq L}{4}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -352,7 +352,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 \@dottedtocline ...\nobreak \hskip -\leftskip {#4}
                                                   \nobreak \leaders \hbox {$...
-l.7 ...ection}{\numberline {6.1}Avec CP \geq L}{4}
+l.6 ...ection}{\numberline {5.1}Avec CP \geq L}{4}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -363,10 +363,23 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.7 ...ection}{\numberline {6.1}Avec CP \geq L}{4}
+l.6 ...ection}{\numberline {5.1}Avec CP \geq L}{4}
                                                   
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 7.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 7.
+
+
+LaTeX Warning: Command \textless invalid in math mode on input line 7.
 
 )
 \tf@toc=\write3
@@ -443,42 +456,16 @@ If you're in the wrong mode, you might be able to
 return to the right one by typing `I}' or `I$' or `I\par'.
 
 Missing character: There is no è in font cmex10!
-
-LaTeX Warning: File `img/teb.png' not found on input line 101.
-
-
-! Package pdftex.def Error: File `img/teb.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.101 			\includegraphics[scale=0.6]{img/teb.png}
-                                                 
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `img/TEBegal.png' not found on input line 114.
-
-
-! Package pdftex.def Error: File `img/TEBegal.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.114 ...cludegraphics[scale=0.6]{img/TEBegal.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<img/teb.jpg, id=24, 563.10374pt x 421.575pt>
+File: img/teb.jpg Graphic file (type jpg)
+ <use img/teb.jpg>
+Package pdftex.def Info: img/teb.jpg used on input line 101.
+(pdftex.def)             Requested size: 337.86485pt x 252.94695pt.
+ [3]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.121 		\subsection{Avec CP \geq L}
+l.112 		\subsection{Avec CP \geq L}
                                    
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -486,68 +473,55 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.121 		\subsection{Avec CP \geq L}
+l.112 		\subsection{Avec CP \geq L}
                                    
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
+<img/teb1.jpg, id=30, 563.10374pt x 415.5525pt>
+File: img/teb1.jpg Graphic file (type jpg)
+ <use img/teb1.jpg>
+Package pdftex.def Info: img/teb1.jpg used on input line 116.
+(pdftex.def)             Requested size: 337.86485pt x 249.33342pt.
+ [4 <C:/Users/Gatux/Documents/GitHub/OFDM/Rapport/img/teb.jpg> <C:/Users/Gatux/Documents/GitHub/OFDM/Rapport/img/teb1.jp
+g>]
 
-LaTeX Warning: File `img/teb1.png' not found on input line 125.
+LaTeX Warning: Command \textless invalid in math mode on input line 123.
 
+LaTeX Font Info:    Font shape `OML/cmr/bx/n' in size <12> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 123.
 
-! Package pdftex.def Error: File `img/teb1.png' not found.
+LaTeX Warning: Command \textless invalid in math mode on input line 123.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.125 			\includegraphics[scale=0.6]{img/teb1.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[3]
-
-LaTeX Warning: File `img/teb2.png' not found on input line 134.
-
-
-! Package pdftex.def Error: File `img/teb2.png' not found.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.134 			\includegraphics[scale=0.6]{img/teb2.png}
-                                                  
-Using draft setting for this image.
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[4] (C:\Users\Gatux\Documents\GitHub\OFDM\Rapport\cr.aux) ) 
+<img/teb2.jpg, id=35, 563.10374pt x 415.5525pt>
+File: img/teb2.jpg Graphic file (type jpg)
+ <use img/teb2.jpg>
+Package pdftex.def Info: img/teb2.jpg used on input line 127.
+(pdftex.def)             Requested size: 337.86485pt x 249.33342pt.
+ [5 <C:/Users/Gatux/Documents/GitHub/OFDM/Rapport/img/teb2.jpg>] (C:\Users\Gatux\Documents\GitHub\OFDM\Rapport\cr.aux) )
+ 
 Here is how much of TeX's memory you used:
- 5454 strings out of 493921
- 75086 string characters out of 3144875
- 144167 words of memory out of 3000000
- 8677 multiletter control sequences out of 15000+200000
- 11996 words of font info for 46 fonts, out of 3000000 for 9000
+ 5483 strings out of 493921
+ 75594 string characters out of 3144875
+ 142167 words of memory out of 3000000
+ 8703 multiletter control sequences out of 15000+200000
+ 12186 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  36i,9n,38p,411b,604s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi
-10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program File
-s (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.p
-fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on cr.pdf (4 pages, 295412 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
+cm/cmr10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files (x86)/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmtt12.pfb>
+Output written on cr.pdf (5 pages, 297282 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

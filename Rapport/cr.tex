@@ -96,47 +96,40 @@ S_{l,k}[N-1] \\
 	La chaîne de communication implémenté sous MATLAB est testée en vérifiant que le TEB est nul lorsqu'il n'y a pas de canal et pas bruit.\\
 	La courbe du TEB en fonction du bruit nous permet également d'avoir une confirmation du bon fonctionnement de notre chaîne de communication.
 
-		\begin{figure}[h]
+		\begin{figure}[H]
 			\centering
-			\includegraphics[scale=0.6]{img/teb.png}
+			\includegraphics[scale=0.6]{img/teb.jpg}
 			\caption{TEB en fonction du SNR}
 			\label{teb}
 		\end{figure}
 		
 		On remarque que plus le rapport signal sur bruit est important, moins le taux d'erreur binaire est élevé.
-		
-	\section{Implémentation d'un égaliseur par forçage à zero}
-	
-	Le test de l'égaliseur se fait avec L = 16 et $\sigma_{n_l}^2$.
-		
-		\begin{figure}[h]
-			\centering
-			\includegraphics[scale=0.6]{img/TEBegal.png}
-			\caption{TEB en fonction du SNR}
-			\label{egal}
-		\end{figure}
-		
-		On remarque que l’égaliseur permet d'améliorer les performances de notre chaîne de transmission. En effet le TEB est plus faible pour un SNR équivalent.
 	
 	\section{Performances de la chaîne de communication}
 	
+	L'implémentation se voit ajouter un égaliseur par forçage à zéro et l'utilisation des préfixes cycliques.
+	
 		\subsection{Avec CP \geq L}
 		
-		\begin{figure}[h]
+		\begin{figure}[H]
 			\centering
-			\includegraphics[scale=0.6]{img/teb1.png}
-			\caption{TEB en fonction du SNR pour la nème sous-porteuse}
+			\includegraphics[scale=0.6]{img/teb1.jpg}
+			\caption{TEB en fonction du SNR}
 			\label{teb1}
 		\end{figure}
 		
-		\subsection{Avec CP < L}
+		On remarque que les résultats expérimentaux sont proches des résultats théoriques. Avec un SNR élevé, les courbes sont confondues.
+		
+		\subsection{Avec CP $\textless$ L}
 
-		\begin{figure}[h]
+		\begin{figure}[H]
 			\centering
-			\includegraphics[scale=0.6]{img/teb2.png}
-			\caption{TEB en fonction du SNR pour la nème sous-porteuse}
+			\includegraphics[scale=0.6]{img/teb2.jpg}
+			\caption{TEB en fonction du SNR}
 			\label{teb2}
 		\end{figure}
+		
+		Avec la condition CP $<$ L, lorsque le SNR est grand, les performances de cette modulation sont moins proches de la théorie que précédemment. Cela met donc en évidence l'importance du paramètre CP.
 		
 		\section{Conclusion}
 		Ce TP nous aura permis de mettre en œuvre et de tester les performances d'une modulation CP-OFDM. On retiendra que l'avantage des préfixes cycliques est de rendre la convolution du canal circulaire éliminant ainsi l'IES. Les performances de cette modulation sont meilleurs qu'une modulation OFDM classique seulement si la condition $CP \geq L$ est vérifiée.

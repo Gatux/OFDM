@@ -2,8 +2,7 @@
 \contentsline {section}{\numberline {2}Hypoth\IeC {\`e}ses et param\IeC {\`e}tres de simulation}{2}
 \contentsline {section}{\numberline {3}Formalisme math\IeC {\'e}matique}{2}
 \contentsline {section}{\numberline {4}Impl\IeC {\'e}mentation et validation de la cha\IeC {\^\i }ne de communication}{3}
-\contentsline {section}{\numberline {5}Impl\IeC {\'e}mentation d'un \IeC {\'e}galiseur par for\IeC {\c c}age \IeC {\`a} zero}{3}
-\contentsline {section}{\numberline {6}Performances de la cha\IeC {\^\i }ne de communication}{4}
-\contentsline {subsection}{\numberline {6.1}Avec CP \geq L}{4}
-\contentsline {subsection}{\numberline {6.2}Avec CP < L}{4}
-\contentsline {section}{\numberline {7}Conclusion}{4}
+\contentsline {section}{\numberline {5}Performances de la cha\IeC {\^\i }ne de communication}{4}
+\contentsline {subsection}{\numberline {5.1}Avec CP \geq L}{4}
+\contentsline {subsection}{\numberline {5.2}Avec CP $\textless $ L}{5}
+\contentsline {section}{\numberline {6}Conclusion}{5}
